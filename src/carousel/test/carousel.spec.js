@@ -12,7 +12,7 @@ describe('carousel', function() {
       });
     }
   }));
-  beforeEach(module('template/carousel/carousel.html', 'template/carousel/slide.html'));
+  beforeEach(module('/template/carousel/carousel.html', '/template/carousel/slide.html'));
 
   var $rootScope, $compile, $controller, $interval;
   beforeEach(inject(function(_$rootScope_, _$compile_, _$controller_, _$interval_) {

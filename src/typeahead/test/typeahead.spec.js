@@ -4,8 +4,8 @@ describe('typeahead tests', function () {
   var changeInputValueTo;
 
   beforeEach(module('ui.bootstrap.typeahead'));
-  beforeEach(module('template/typeahead/typeahead-popup.html'));
-  beforeEach(module('template/typeahead/typeahead-match.html'));
+  beforeEach(module('/template/typeahead/typeahead-popup.html'));
+  beforeEach(module('/template/typeahead/typeahead-match.html'));
   beforeEach(module(function($compileProvider) {
     $compileProvider.directive('formatter', function () {
       return {

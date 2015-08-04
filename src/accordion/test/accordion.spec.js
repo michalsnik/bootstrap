@@ -3,8 +3,8 @@ describe('accordion', function () {
 
   beforeEach(module('ui.bootstrap.accordion'));
   beforeEach(module('ui.bootstrap.collapse'));
-  beforeEach(module('template/accordion/accordion.html'));
-  beforeEach(module('template/accordion/accordion-group.html'));
+  beforeEach(module('/template/accordion/accordion.html'));
+  beforeEach(module('/template/accordion/accordion-group.html'));
 
   beforeEach(inject(function ($rootScope) {
     $scope = $rootScope;

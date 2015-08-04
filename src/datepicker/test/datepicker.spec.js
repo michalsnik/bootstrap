@@ -1,11 +1,11 @@
 describe('datepicker directive', function () {
   var $rootScope, $compile, element;
   beforeEach(module('ui.bootstrap.datepicker'));
-  beforeEach(module('template/datepicker/datepicker.html'));
-  beforeEach(module('template/datepicker/day.html'));
-  beforeEach(module('template/datepicker/month.html'));
-  beforeEach(module('template/datepicker/year.html'));
-  beforeEach(module('template/datepicker/popup.html'));
+  beforeEach(module('/template/datepicker/datepicker.html'));
+  beforeEach(module('/template/datepicker/day.html'));
+  beforeEach(module('/template/datepicker/month.html'));
+  beforeEach(module('/template/datepicker/year.html'));
+  beforeEach(module('/template/datepicker/popup.html'));
   beforeEach(module(function($compileProvider) {
     $compileProvider.directive('dateModel', function() {
       return {

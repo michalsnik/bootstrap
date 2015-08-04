@@ -12,8 +12,8 @@ describe('$modal', function () {
 
   beforeEach(module('ngAnimateMock'));
   beforeEach(module('ui.bootstrap.modal'));
-  beforeEach(module('template/modal/backdrop.html'));
-  beforeEach(module('template/modal/window.html'));
+  beforeEach(module('/template/modal/backdrop.html'));
+  beforeEach(module('/template/modal/window.html'));
   beforeEach(module(function(_$controllerProvider_, _$modalProvider_){
     $controllerProvider = _$controllerProvider_;
     $modalProvider = _$modalProvider_;

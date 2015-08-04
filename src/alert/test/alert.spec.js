@@ -3,7 +3,7 @@ describe('alert', function () {
   var element;
 
   beforeEach(module('ui.bootstrap.alert'));
-  beforeEach(module('template/alert/alert.html'));
+  beforeEach(module('/template/alert/alert.html'));
 
   beforeEach(inject(function ($rootScope, _$compile_) {
 

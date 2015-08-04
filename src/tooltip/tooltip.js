@@ -486,7 +486,7 @@ function ($animate ,  $sce ,  $compile ,  $templateRequest) {
     restrict: 'EA',
     replace: true,
     scope: { content: '@', placement: '@', popupClass: '@', animation: '&', isOpen: '&' },
-    templateUrl: 'template/tooltip/tooltip-popup.html'
+    templateUrl: '/template/tooltip/tooltip-popup.html'
   };
 })
 
@@ -500,7 +500,7 @@ function ($animate ,  $sce ,  $compile ,  $templateRequest) {
     replace: true,
     scope: { contentExp: '&', placement: '@', popupClass: '@', animation: '&', isOpen: '&',
       originScope: '&' },
-    templateUrl: 'template/tooltip/tooltip-template-popup.html'
+    templateUrl: '/template/tooltip/tooltip-template-popup.html'
   };
 })
 
@@ -515,7 +515,7 @@ function ($animate ,  $sce ,  $compile ,  $templateRequest) {
     restrict: 'EA',
     replace: true,
     scope: { contentExp: '&', placement: '@', popupClass: '@', animation: '&', isOpen: '&' },
-    templateUrl: 'template/tooltip/tooltip-html-popup.html'
+    templateUrl: '/template/tooltip/tooltip-html-popup.html'
   };
 })
 
@@ -533,7 +533,7 @@ Deprecated
     restrict: 'EA',
     replace: true,
     scope: { content: '@', placement: '@', popupClass: '@', animation: '&', isOpen: '&' },
-    templateUrl: 'template/tooltip/tooltip-html-unsafe-popup.html'
+    templateUrl: '/template/tooltip/tooltip-html-unsafe-popup.html'
   };
 })
 

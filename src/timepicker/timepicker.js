@@ -287,7 +287,7 @@ angular.module('ui.bootstrap.timepicker', [])
     controller:'TimepickerController',
     replace: true,
     scope: {},
-    templateUrl: 'template/timepicker/timepicker.html',
+    templateUrl: '/template/timepicker/timepicker.html',
     link: function(scope, element, attrs, ctrls) {
       var timepickerCtrl = ctrls[0], ngModelCtrl = ctrls[1];
 

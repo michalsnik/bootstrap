@@ -3,10 +3,10 @@ describe('tooltip directive', function () {
   var $rootScope, $compile, $document, $timeout;
 
   beforeEach(module('ui.bootstrap.tooltip'));
-  beforeEach(module('template/tooltip/tooltip-popup.html'));
-  beforeEach(module('template/tooltip/tooltip-template-popup.html'));
-  beforeEach(module('template/tooltip/tooltip-html-popup.html'));
-  beforeEach(module('template/tooltip/tooltip-html-unsafe-popup.html'));
+  beforeEach(module('/template/tooltip/tooltip-popup.html'));
+  beforeEach(module('/template/tooltip/tooltip-template-popup.html'));
+  beforeEach(module('/template/tooltip/tooltip-html-popup.html'));
+  beforeEach(module('/template/tooltip/tooltip-html-unsafe-popup.html'));
   beforeEach(inject(function (_$rootScope_, _$compile_, _$document_, _$timeout_) {
     $rootScope = _$rootScope_;
     $compile = _$compile_;

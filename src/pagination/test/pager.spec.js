@@ -1,7 +1,7 @@
 describe('pager directive', function () {
   var $compile, $rootScope, $document, element;
   beforeEach(module('ui.bootstrap.pagination'));
-  beforeEach(module('template/pagination/pager.html'));
+  beforeEach(module('/template/pagination/pager.html'));
   beforeEach(inject(function(_$compile_, _$rootScope_, _$document_) {
     $compile = _$compile_;
     $rootScope = _$rootScope_;

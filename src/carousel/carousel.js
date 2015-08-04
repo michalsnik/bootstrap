@@ -252,7 +252,7 @@ angular.module('ui.bootstrap.carousel', [])
     replace: true,
     controller: 'CarouselController',
     require: 'carousel',
-    templateUrl: 'template/carousel/carousel.html',
+    templateUrl: '/template/carousel/carousel.html',
     scope: {
       interval: '=',
       noTransition: '=',
@@ -310,7 +310,7 @@ function CarouselDemoCtrl($scope) {
     restrict: 'EA',
     transclude: true,
     replace: true,
-    templateUrl: 'template/carousel/slide.html',
+    templateUrl: '/template/carousel/slide.html',
     scope: {
       active: '=?',
       index: '=?'
